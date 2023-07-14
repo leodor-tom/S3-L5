@@ -171,10 +171,10 @@ const rollTheDices = (num) => {
   obj.sum = res.reduce(function (a, b) {
     return a + b;
   });
-  console.log(obj);
+  return obj;
 };
 
-rollTheDices(3);
+console.log(rollTheDices(3));
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
